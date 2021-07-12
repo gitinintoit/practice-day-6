@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Arrays</title>
+</head>
+<body>
+    <h1>Given Array:</h1>
+    <para id="demo"></para>
+    <button onclick="sortIt()">Sort?</button>
+    
+    <script>
+        const cars=["BMW",
+            "VOLKS WAGEN",
+            "ALTO"
+        ];
+    document.getElementById("demo").innerHTML=cars;
+    //array sort
+    function sortIt(){
+        cars.sort();
+        document.getElementById("demo").innerHTML=cars;
+    };
+    </script>
+</body>
+</html>

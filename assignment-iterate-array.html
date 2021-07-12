@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>
+            Iterating through array
+        </title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            const numbers=[45,4,9,6,20];
+            let txt="";
+            numbers.forEach(display);
+            document.getElementById("demo").innerHTML=txt;
+            function display(value){
+                txt+=value+"<br>";
+            }
+        </script>
+
+    </body>
+</html>

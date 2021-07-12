@@ -1,0 +1,23 @@
+{
+  "name": "practice-day-6",
+  "version": "1.0.0",
+  "description": "Day 6: Client-Sever and Intermediate JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitinintoit/practice-day-6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitinintoit/practice-day-6/issues"
+  },
+  "homepage": "https://github.com/gitinintoit/practice-day-6#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
